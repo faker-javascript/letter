@@ -1,9 +1,9 @@
 {
   "name": "@fakerjs/letter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Letter package provides functionality to generate a fake letter value.",
   "license": "MIT",
-  "repository": "fakerjs/letter",
+  "repository": "faker-javascript/letter",
   "author": {
     "name": "Sergey Romanenko",
     "email": "awilum@msn.com",
