@@ -15,7 +15,7 @@ $ npm install --save @fakerjs/letter
 ## Usage
 
 ```js
-import fakeLetter from '@glowyjs/letter';
+import fakeLetter from '@fakerjs/letter';
 
 fakeLetter();
 //=> a
