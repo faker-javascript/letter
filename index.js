@@ -1,6 +1,10 @@
 export default function fakeLetter(options) {
-    let keyspace = "abcdefghijklmnopqrstuvwxyz";
-    let letter = keyspace.charAt(Math.floor(Math.random() * keyspace.length));
     options = options || {};
+    let keyspace = {
+        "en_US": "abcdefghijklmnopqrstuvwxyz",
+        "ru_RU": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+    };
+    let locale = ((options.locale === undefined) ? 'en_US' : options.locale);
+    let letter = keyspace[locale].charAt(Math.floor(Math.random() * keyspace[locale].length));
     return (options.casing === 'upper' ? letter.toUpperCase() : letter);
 };

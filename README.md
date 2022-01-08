@@ -18,10 +18,13 @@ $ npm install --save @fakerjs/letter
 import fakeLetter from '@fakerjs/letter';
 
 fakeLetter();
-//=> a
+//=> z
 
 fakeLetter({'casing': 'upper'});
-//=> A
+//=> Z
+
+fakeLetter({'casing': 'upper', 'locale': 'ru_RU'});
+//=> Я
 ```
 
 ## Tests
