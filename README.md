@@ -15,15 +15,15 @@ $ npm install --save @fakerjs/letter
 ## Usage
 
 ```js
-import fakeLetter from '@fakerjs/letter';
+import letter from '@fakerjs/letter';
 
-fakeLetter();
+letter();
 //=> z
 
-fakeLetter({'casing': 'upper'});
+letter({'casing': 'upper'});
 //=> Z
 
-fakeLetter({'casing': 'upper', 'locale': 'ru_RU'});
+letter({'casing': 'upper', 'locale': 'ru_RU'});
 //=> Я
 ```
 
