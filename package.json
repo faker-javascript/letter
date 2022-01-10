@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/letter",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Letter package provides functionality to generate a fake letter value.",
   "license": "MIT",
   "repository": "faker-javascript/letter",
@@ -28,9 +28,7 @@
     "faker",
     "fake",
     "random",
-    "strings",
-    "string",
     "letter",
-    "str"
+    "string"
   ]
 }
