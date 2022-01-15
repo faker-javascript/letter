@@ -37,5 +37,5 @@ npm run test
 ```
 
 ## License
-[The MIT License (MIT)](https://github.com/faker-javascript/letter/blob/master/LICENSE.txt)
+[The MIT License (MIT)](https://github.com/faker-javascript/letter/blob/master/LICENSE)
 Copyright (c) [Sergey Romanenko](https://github.com/Awilum)
