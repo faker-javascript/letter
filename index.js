@@ -1,11 +1,18 @@
-/* eslint camelcase: ["error", {properties: "never"}] */
+import path from 'node:path';
+import {loadJsonFileSync} from 'load-json-file';
+
 export default function letter(options) {
     options = options || {};
-    const keyspace = {
-        en_US: 'abcdefghijklmnopqrstuvwxyz',
-        ru_RU: 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя',
-    };
     const locale = options.locale || 'en_US';
-    const letter = keyspace[locale].charAt(Math.floor(Math.random() * keyspace[locale].length));
+    const filePath = `./locales/${locale}/letters.json`;
+    let letters = [];
+
+    try {
+        letters = loadJsonFileSync(filePath);
+    } catch {
+        letters = loadJsonFileSync(path.resolve('node_modules/@fakerjs/letter/', filePath));
+    }
+
+    const letter = letters[0].charAt(Math.floor(Math.random() * letters[0].length));
     return (options.casing === 'upper' ? letter.toUpperCase() : letter);
 }
