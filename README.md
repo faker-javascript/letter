@@ -9,8 +9,14 @@ Letter package provides functionality to generate a fake letter value.
 
 ## Install
 
+npm
 ```
-$ npm install --save @fakerjs/letter
+npm install @fakerjs/letter --save-dev
+```
+
+yarn
+```
+yarn add @fakerjs/letter -D
 ```
 
 ## Usage
