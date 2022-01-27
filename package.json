@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/letter",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Letter package provides functionality to generate a fake letter value.",
   "license": "MIT",
   "repository": "faker-javascript/letter",
@@ -28,7 +28,8 @@
   },
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.ts",
+    "locales"
   ],
   "keywords": [
     "fakerjs",

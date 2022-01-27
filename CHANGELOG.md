@@ -1,3 +1,7 @@
+<a name="2.2.2"></a>
+# [2.2.2](https://github.com/faker-javascript/letter) (2022-01-27)
+* Fix locales.
+
 <a name="2.2.1"></a>
 # [2.2.1](https://github.com/faker-javascript/letter) (2022-01-19)
 * Add locales folder for genders.
